@@ -21,6 +21,9 @@
 </head>
 <body>
 
+<!-- loading page -->
+  <div id="loading"><img id="loading-image" src="assets/img/ajax-loader.gif" alt="Loading..." /></div>
+
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
   <a class="device-notification--logo" href="#0">
@@ -38,7 +41,7 @@
           <a class="header--logo" href="#0">
             <img src="assets/img/logo.png" alt="Global">
           </a>
-          
+
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -351,6 +354,7 @@
 </div>
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
@@ -358,6 +362,13 @@
 
 <script src="assets/js/velocity.min.js"></script>
 <script src="assets/js/main.js"></script>
+
+<!-- loading -->
+<script type="text/javascript">
+$(window).load(function() {
+     $('#loading').hide();
+    });
+</script>
 
 </body>
 </html>
