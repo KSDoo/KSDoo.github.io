@@ -74,7 +74,7 @@
 }
 
 .front .img {
-  background-color: #dadce2;
+  background-color: transparent;
   background-position: center;
   background-size: cover;
   border-radius: 5px 5px 0 0;
@@ -82,13 +82,13 @@
   height: 250px;
 }
 .front .img1 {
-  background-image: url(../img/sns.jpg);
+  background-image: url(../img/fb.png);
 }
 .front .img2 {
-  background-image: url(http://i.imgur.com/2p9VXAn.jpg);
+  background-image: url(../img/yt.png);
 }
 .front .img3 {
-  background-image: url(http://i.imgur.com/I5ABT2v.jpg);
+  background-image: url(../img/phone.png);
 }
 
 .back {
