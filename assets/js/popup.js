@@ -13,5 +13,5 @@ jQuery(document).ready(function () {
     jQuery.cookie('visited', 'yes', {
         expires: 365 // the number of days cookie  will be effective
     });
-    jQuery("#popuplink").fancybox({modal:true, maxWidth: 1000, overlay : {closeClick : true}});
+    jQuery("#popuplink").fancybox({modal:true, maxWidth: 400, overlay : {closeClick : true}});
 });
