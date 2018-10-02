@@ -12,9 +12,6 @@
   <meta property="og:image" content="assets/img/프로필.png">
   <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
 
-  <!-- first popup -->
-  <link rel="stylesheet" href="assets/css/fancybox.css" />
-
   <!-- declare -->
   <link rel="stylesheet" href="assets/css/modal.css"> <!-- Resource style -->
 	<script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
@@ -33,18 +30,6 @@
 
 </head>
 <body>
-
-<!-- popup page -->
-<a id="popuplink" href="#inline" style="display:none;"></a>
-<div id="inline" style="display:none;text-align:center;">
-  <img src="https://thebeachfurniture.co.nz/newbeach-logo.png" alt="" id="logo">
-  <h3 style="margin-top:20px;">The Beach Furniture has changed its name to Urban & Beach Furniture</h3>
-  <p>But we will continue providing the same beautifully crafted character furniture</p>
-  <!-- <div class="resp-container">
-    <iframe class="resp-iframe" src="https://www.youtube.com/embed/scwHAeUTVjA?autoplay=1" allow="autoplay" allowfullscreen></iframe>
-  </div> -->
-  <p><a href="javascript:;" onclick="jQuery.fancybox.close();" style="background-color:#333;padding:5px 10px;color:#fff;border-radius:5px;text-decoration:none;">Close</a></p>
-</div>
 
 <!-- loading page -->
   <div id="loading"><img id="loading-image" src="assets/img/ajax-loader.gif" alt="Loading..." /></div>
@@ -75,6 +60,7 @@
           <ul class="side-nav">
             <li class="is-active"><span>Home</span></li>
             <li><span>출마의변</span></li>
+            <li><span>용기영상</span></li>
             <li><span>공약한눈에</span></li>
             <li><span>하나되다</span></li>
             <li><span>인재양성소</span></li>
@@ -195,23 +181,17 @@
                 		</div> <!-- cd-modal -->
                 		<a href="#0" class="cd-modal-close">Close</a>
                 	</section>
-                  <section class="cd-section">
-                		<div class="cd-modal-action">
-                			<a href="#0" class="btn" data-type="modal-trigger">전용기의 각오</a>
-                			<span class="cd-modal-bg"></span>
-                		</div> <!-- cd-modal-action -->
-                		<div class="cd-modal">
-                			<div class="cd-modal-content">
-                        <div class="resp-container">
-                          <iframe class="resp-iframe" src="https://www.youtube.com/embed/scwHAeUTVjA?autoplay=1" allow="autoplay" allowfullscreen></iframe>
-                        </div>
-                			</div> <!-- cd-modal-content -->
-                		</div> <!-- cd-modal -->
-                		<a href="#0" class="cd-modal-close">Close</a>
-                	</section>
                 </div>
               </div>
             </div>
+          </li>
+          <li class="l-section section">
+            <div class="material-header">
+              <h2>전용기가<br>출마하는 이유</h2>
+            </div>
+            <div class="resp-container">
+              <iframe class="resp-iframe" src="https://www.youtube.com/embed/scwHAeUTVjA?autoplay=1" allow="autoplay" allowfullscreen></iframe>
+          </div>
           </li>
           <li id="07"class="l-section section">
             <div class="about">
@@ -590,6 +570,7 @@
   <ul class="outer-nav">
     <li class="is-active">Home</li>
     <li>출마의변</li>
+    <li>용기영상</li>
     <li>공약한눈에</li>
     <li>하나되다</li>
     <li>인재양성소</li>
@@ -607,11 +588,6 @@
 <script src="assets/js/velocity.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/ano-cards.js"></script>
-
-<!-- popup -->
-<script src="assets/js/popup.js"></script>
-<script src="assets/js/fancybox.js"></script>
-<script src="assets/js/cookie.js"></script>
 
 
 <!-- loading -->
