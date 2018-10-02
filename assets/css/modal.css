@@ -1,5 +1,5 @@
 .cd-section {
-  padding: 2em 5%;
+  padding: 2em 20px;
   text-align: center;
 }
 .cd-section p {
@@ -11,7 +11,7 @@
 }
 @media only screen and (min-width: 768px) {
   .cd-section {
-    padding: 2em 10%;
+    padding: 2em 20px;
   }
   .cd-section p {
     font-size: 1.8rem;
@@ -24,7 +24,7 @@
 }
 @media only screen and (min-width: 1170px) {
   .cd-section {
-    padding: 2em 20%;
+    padding: 2em 20px;
   }
   .cd-modal-content p {
     margin-top: 0;
@@ -218,5 +218,24 @@
   }
   .cd-modal-content {
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
   }
+  .cd-section {
+    padding: 2em 5px;
+  }
+  .cd-modal-action .btn {
+    width: 10em;
+  }
+}
+
+.modals {
+  display: flex;
+  justify-content: center;
+}
+
+
+.cd-modal-action a {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400px;
 }
