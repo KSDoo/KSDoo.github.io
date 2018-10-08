@@ -1,18 +1,16 @@
-# [Global: HTML5 website template](http://buckymaler.com/global)
+# 더불어민주당 전국대학생위원장 전용기 홈페이지
 
-### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
+### 사용한 소스
 
-Global is a modern and sleek website template crafted for professionals in the creative industry. Global can serve as a single page portfolio or be easily modified to serve as the perfect beginning for a hip creative agency.
+* 홈페이지 템플릿은 [Global](http://buckymaler.com/global)
+* 모달은 [Morphing Modal Window](https://codyhouse.co/gem/morphing-modal-window)
+* 이미지 슬라이더는 [Responsive Slideshow / Carousel with only HTML5 & CSS3](https://codepen.io/trungk18/pen/EydyoL)
+* 카드는 [Material Design - Responsive card](https://codepen.io/marlenesco/pen/NqOozj)
+* 디자인 아이콘은 [Flaticon](https://www.flaticon.com)
+* 그외 jQuery, Bootstrap 등 기본적인 라이브러리를 사용했음.
 
-The original PSD is included and was provided by [Sergey Melnik](https://www.behance.net/SergeyMelnik).
 
-This project was developed with HTML5, Sass, jQuery, and Hammer.js.
-
-Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
-
-[LIVE PREVIEW](http://buckymaler.com/global)
-
-## Misc:
-
-* Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
-* Follow Sergey: [Dribbble](https://dribbble.com/sergeymelnik), [Bēhance](https://www.behance.net/SergeyMelnik)
+## 써보고 싶었던 소스
+* [Display popup on first visit only](https://codepen.io/Black-Marketing/pen/NjzmKw/)
+* * 로컬에서는 문제없이 사용되었으나 github으로 배포한 이후론 작동하지 않음.
+* 그 외에는 차후 정리
